@@ -1,15 +1,12 @@
-import Banner from "./components/Banner";
-import Nav from "./components/Nav";
+
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
       <div>
-        <Banner />
+        <Header />
       </div>
-
-      <Nav />
-      <div className="bg-white-600 w-full h-screen"></div>
     </>
   );
 };
