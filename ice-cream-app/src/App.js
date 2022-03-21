@@ -1,9 +1,20 @@
 import React from "react";
+import BotonRadio from "./components/ButtonRadio";
+import BotonRound from "./components/ButtonRound";
+import BotonSquare from "./components/ButtonSquare";
 
 function App() {
   return (
     <>
-    <Boton></ Boton>
+    <div>
+      <BotonRadio />
+    </div>
+    <div>
+      <BotonSquare /> 
+    </div>
+    <div>
+      <BotonRound />
+    </div>
     </>
   );
 }
