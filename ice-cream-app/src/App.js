@@ -1,11 +1,11 @@
 
 import './App.css';
-import Tarjeta from './components/Tarjeta';
+import Tarjetas from './components/Tarjetas';
 
 function App() {
   return (
     <div>
-      <Tarjeta />
+      <Tarjetas />
     </div>
   );
 }
