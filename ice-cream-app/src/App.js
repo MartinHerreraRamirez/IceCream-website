@@ -7,13 +7,19 @@ function App() {
   return (
     <>
     <div>
-      <BotonRadio />
+      <BotonRadio>
+        Producto A
+      </BotonRadio>
     </div>
     <div>
-      <BotonSquare /> 
+      <BotonRound>
+        Agregar
+      </BotonRound>
     </div>
     <div>
-      <BotonRound />
+      <BotonSquare>
+       Producto B
+      </BotonSquare>
     </div>
     </>
   );
