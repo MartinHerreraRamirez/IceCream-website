@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Modal from "./components/Modal.js";
+import { useState } from "react";
 
-function App() {
+const App = () => {
+
+  const [modalOn, setModalOn] = useState(false);
+  const [choice, setChoice] = useState(false)
+
+  const clicked = () => {
+    setModalOn(true)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+
+    <div>
+
+      <div className="flex justify-center">
+        <div className="flex  cursor-pointer justify-center w-1/3  bg-blue-400 p-4  m-6 rounded-md text-white"
+
+          onClick={clicked}
         >
-          Learn React
-        </a>
-      </header>
+          Mostrar Producto
+        </div>
+      </div>
+
+    {/* conditionally display the result of the action if user confirms  */}
+      {choice &&
+      <div className="flex justify-center">
+        <div className="flex  justify-center w-1/3 bg-red-400 m-4 p-6 text-lg text-white "> Nos llevó a la pag del carrito</div>
+        </div>
+      }
+
+      {modalOn && < Modal setModalOn={setModalOn} setChoice={setChoice} />}
+
     </div>
   );
 }
-
 export default App;
