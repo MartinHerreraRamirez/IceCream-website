@@ -11,7 +11,7 @@ const Nav = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <div className="left-0 w-full shadow-md top-15">
+    <div className="left-0 shadow-md z-w-full top-15">
       <div className="flex items-center justify-between py-1 bg-white md:px-5 px-7">
         <div>
           <img src={lunaice} alt="logo" class="w-1/5 m-0" />
@@ -26,7 +26,7 @@ const Nav = () => {
 
         <ul
           className={`md:flex md:items-center sx:mt-14 md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-50 left-0 w-260 md:w-auto md:pl-0 pl-2 pr-2 transition-all duration-500 ease-in ${
-            open ? "top-24" : "top-[-490px]"
+            open ? "top-20" : "top-[-490px]"
           }`}
         >
           {Links.map((link) => (
