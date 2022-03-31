@@ -3,7 +3,7 @@ import portadaimg from './assets/portadaimg.png'
 
 const Portada = () => {
   return (
-    <div>
+    <div className='pt-24'>
         <img src={portadaimg} alt='helados' />
     </div>
   )
