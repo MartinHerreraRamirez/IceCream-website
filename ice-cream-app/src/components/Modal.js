@@ -1,6 +1,7 @@
 import React from "react";
 import "./Modal.css";
 
+
 const Modal = ({ children, modalIsOpen, closeModal }) => {
   return (
     <div
