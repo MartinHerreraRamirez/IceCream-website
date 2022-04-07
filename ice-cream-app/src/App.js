@@ -4,7 +4,11 @@ import Carrusel from './components/Carousel'
 function App() {
   return (
     <>
-      <Carrusel />
+    <div className='bg-black'>
+      <Carrusel className='m-10'>
+
+      </Carrusel>
+      </div>
     </>
   )
 }
