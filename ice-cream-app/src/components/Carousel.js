@@ -20,8 +20,8 @@ import img14 from '../components/pictures/pic14.jpg';
 const Carrusel = () => {
     return (
         <OwlCarousel
-            className="owl-theme"
-            items="7"
+            className="pt-9 owl-theme"
+            items="6"
             autoplay
             autoplayHoverPause
             //nav
@@ -29,6 +29,7 @@ const Carrusel = () => {
             loop
             rewind
             margin={20}
+
         >
             <div className="item">
                 <img src={img1} alt="helado1" />
