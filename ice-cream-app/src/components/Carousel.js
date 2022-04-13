@@ -26,52 +26,53 @@ const Carrusel = () => {
             autoplayHoverPause
             //nav
             dotsEach
-            loop
+            loop          
             rewind
-            margin={20}
+            margin={16}
+            
 
         >
-            <div className="item">
-                <img src={img1} alt="helado1" />
+            <div className="px-2 py-4 item ">
+                <img src={img1} alt="helado1" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img2} alt="helado2"  />
+            <div className="px-2 py-4 item ">
+                <img src={img2} alt="helado2" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img3} alt="helado3" />
+            <div className="px-2 py-4 item ">
+                <img src={img3} alt="helado3" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img4} alt="helado4" />
+            <div className="px-2 py-4 item ">
+                <img src={img4} alt="helado4" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img5} alt="helado5" />
+            <div className="px-2 py-4 item ">
+                <img src={img5} alt="helado5" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img6} alt="helado6" />
+            <div className="px-2 py-4 item ">
+                <img src={img6} alt="helado6" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img7} alt="helado7" />
+            <div className="px-2 py-4 item ">
+                <img src={img7} alt="helado7" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img8} alt="helado8" />
+            <div className="px-2 py-4 item ">
+                <img src={img8} alt="helado8" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img9} alt="helado9" />
+            <div className="px-2 py-4 item ">
+                <img src={img9} alt="helado9" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img10} alt="helado10" />
+            <div className="px-2 py-4 item ">
+                <img src={img10} alt="helado10" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img11} alt="helado11" />
+            <div className="px-2 py-4 item ">
+                <img src={img11} alt="helado11" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img12} alt="helado12" />
+            <div className="px-2 py-4 item ">
+                <img src={img12} alt="helado12" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img13} alt="helado13" />
+            <div className="px-2 py-4 item ">
+                <img src={img13} alt="helado13" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
-            <div className="item">
-                <img src={img14} alt="helado14" />
+            <div className="px-2 py-4 item ">
+                <img src={img14} alt="helado14" className='duration-300 ease-out border-2 border-yellow-200 rounded-md hover:scale-125' />
             </div>
         </OwlCarousel>
     )
