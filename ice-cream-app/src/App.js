@@ -1,15 +1,11 @@
-import React from 'react';
-import Carrusel from './components/Carousel'
+import React from "react";
+import ShoppingCart from "./components/ShoppingCart";
 
 function App() {
   return (
     <>
-    <div className='bg-cyan-500'>
-      <Carrusel>
-
-      </Carrusel>
-      </div>
+      <ShoppingCart />
     </>
-  )
+  );
 }
-export default App
+export default App;
