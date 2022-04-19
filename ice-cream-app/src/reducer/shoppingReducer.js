@@ -1,6 +1,6 @@
 import { TYPES } from "../actions/shoppingActions";
 
-export const shoppingInitialState = {
+export const shoppingInitialState ={
   products: [],
   cart: [],
 };
@@ -11,7 +11,7 @@ export function shoppingReducer(state, action) {
    case TYPES.READ_STATE: {
       return {
         ...state,
-        product: action.payload.newProduct,
+        products: action.payload.newProduct,
         cart: action.payload.newCartItem
       }
     }

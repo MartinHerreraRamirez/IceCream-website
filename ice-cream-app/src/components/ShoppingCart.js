@@ -15,14 +15,14 @@ export const ShoppingCart = () => {
     const cartURL = "http://localhost:3000/cart";
     const resProducts = await axios.get(productsURL);
     const resCart = await axios.get(cartURL);
-    const newProduct = await resProducts.data;
+    const newProduct = await resProducts.data;  
     const newCartItem = await resCart.data;
     dispatch({type: TYPES.READ_STATE, payload: {newProduct, newCartItem}})
   }
   
   useEffect(() => {
    updateState()  
-  }, [])
+  }, []) 
   
   const addToCart = (id) => {
    
@@ -38,7 +38,7 @@ export const ShoppingCart = () => {
     }
   };
 
-  const clearCart = (id) => {
+  const clearCart = () => {
     dispatch({type: TYPES.CLEAR_CART})
   };
 
@@ -53,11 +53,11 @@ export const ShoppingCart = () => {
         Productos
       </h3>
       <div className="flex flex-row gap-4 mt-6">
-        {products.map(product => <Product 
+        {products.map((product) => (<Product 
         key={product.id}
         data={product}
         addToCart={addToCart}
-        />)}
+        />))}
 
       </div>
       <h3 className="p-6 mt-10 font-sans text-xl font-semibold text-left bg-orange-500 text-zinc-700">
