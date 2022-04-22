@@ -38,9 +38,9 @@ export const ShoppingCart = () => {
     }
   };
 
-  const clearCart = () => {
-    dispatch({type: TYPES.CLEAR_CART})
-  };
+  // const clearCart = () => {
+  //   dispatch({type: TYPES.CLEAR_CART})
+  // };
 
 
 
@@ -71,12 +71,12 @@ export const ShoppingCart = () => {
           deleteFromCart={deleteFromCart}  
           />)}
       </div>
-      <div className="ml-4">
+      {/* <div className="ml-4">
       <button onClick={()=> clearCart()} 
       className="p-2 mt-10 font-sans text-xl font-semibold text-center rounded bg-slate-500 text-slate-50 hover:bg-orange-500 ">
         Limpiar Carrito
       </button>
-      </div>   
+      </div>    */}
     </>
   );
 };
