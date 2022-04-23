@@ -21,7 +21,7 @@ const Carrusel = () => {
     return (
         <OwlCarousel
             className="pt-9 owl-theme"
-            items="6"
+            items="4"
             autoplay
             autoplayHoverPause
             //nav

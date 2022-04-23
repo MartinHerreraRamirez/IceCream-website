@@ -9,6 +9,7 @@ import Elaboration from "./components/Elaboration/Elaboration";
 import Socio from "./components/Socio/Socio";
 import Delivery from "./components/Delivery/Delivery";
 import Footer from "./components/Footer/Footer";
+import Carrusel from "./components/Carousel";
 
 
 const App = () => {
@@ -33,6 +34,9 @@ const App = () => {
       </div>
       <div className="mt-20">
         <Delivery />
+      </div>
+      <div>
+        <Carrusel />
       </div>
       <div className="mt-20">
         <Footer />
