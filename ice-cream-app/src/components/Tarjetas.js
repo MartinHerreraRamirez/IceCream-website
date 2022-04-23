@@ -5,7 +5,7 @@ import crema from "../assets/crema.jpg";
 import varios from "../assets/varios.jpg"
 import * as stylesMM from "./stylesMM"
 
-const Tarjeta = () => {
+const Tarjetas = () => {
   return (
     <>
     <div className='mt-4 mb-10 text-2xl text-center'>
@@ -95,4 +95,4 @@ const Tarjeta = () => {
   );
 };
 
-export default Tarjeta;
+export default Tarjetas;
