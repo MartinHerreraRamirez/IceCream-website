@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import BotonRadio from "./components/ButtonRadio";
 import {useModalHookState} from "./components/useModalHookState";
 import Modal from "./components/Modal";
@@ -33,3 +34,21 @@ const App = () => {
   )
 }
 export default App
+=======
+
+import Header from "./components/Header";
+import Portada from "./components/Portada";
+
+const App = () => {
+  return (
+    <>
+      <div>
+      <Header />
+      <Portada />
+      </div>
+    </>
+  );
+};
+
+export default App;
+>>>>>>> 8330f013610c747639a3ace36f5357b5f4cde694
