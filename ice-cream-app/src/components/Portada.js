@@ -3,8 +3,8 @@ import portadaimg from "./assets/portadaimg.png";
 
 const Portada = () => {
   return (
-    <div className="fixed">
-      <img src={portadaimg} alt="helados" />
+    <div className="w-full bg-fixed h-96 bg-slate-700">
+      <img  src={portadaimg} alt="helados" className="object-contain w-full h-96" />
     </div>
   );
 };

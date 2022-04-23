@@ -1,11 +1,31 @@
 import Modal from "./components/Modal";
 import { useModalHookState } from "./components/useModalHookState";
 import Pic1 from "./components/pictures/pic01.jpg";
+import Header from "./components/Header";
+import Portada from "./components/Portada";
 
 const App = () => {
   const [modalIsOpen, openModal, closeModal] = useModalHookState(false);
   return (
+    <>
+    <Header />
+    <div >
+    <Portada />
+    </div>
     <div>
+        
+    </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <div className="pt-10">
       <button
         className="px-6 m-10 font-sans text-white bg-blue-600 border-2 rounded border-cyan-500"
         onClick={openModal}
@@ -25,6 +45,7 @@ const App = () => {
         </div>
       </Modal>
     </div> 
+    </>
   );
 };
 
