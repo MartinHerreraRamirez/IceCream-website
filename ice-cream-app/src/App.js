@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import Modal from "./components/Modal";
 import { useModalHookState } from "./components/useModalHookState";
 import Pic1 from "./components/pictures/pic01.jpg";
@@ -6,6 +5,11 @@ import Header from "./components/Header";
 import Portada from "./components/Portada";
 import Tarjetas from "./components/Tarjetas";
 import Columnas from "./components/Columns";
+import Elaboration from "./components/Elaboration/Elaboration";
+import Socio from "./components/Socio/Socio";
+import Delivery from "./components/Delivery/Delivery";
+import Footer from "./components/Footer/Footer";
+
 
 const App = () => {
   const [modalIsOpen, openModal, closeModal] = useModalHookState(false);
@@ -15,11 +19,23 @@ const App = () => {
       <div>
         <Portada />
       </div>
-      <div>
+      <div className="mt-20">
         <Tarjetas />
       </div>
       <div>
         <Columnas />
+      </div>
+      <div className="mt-20">
+        <Elaboration />
+      </div>
+      <div className="mt-20">
+        <Socio />
+      </div>
+      <div className="mt-20">
+        <Delivery />
+      </div>
+      <div className="mt-20">
+        <Footer />
       </div>
 
       <div className="pt-10">
@@ -47,5 +63,3 @@ const App = () => {
 };
 
 export default App;
-=======
->>>>>>> martin
