@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Modal from "./components/Modal";
 import { useModalHookState } from "./components/useModalHookState";
 import Pic1 from "./components/pictures/pic01.jpg";
@@ -46,3 +47,5 @@ const App = () => {
 };
 
 export default App;
+=======
+>>>>>>> martin
