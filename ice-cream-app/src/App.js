@@ -3,10 +3,12 @@ import {useModalHookState} from "./components/useModalHookState";
 import Modal from "./components/Modal";
 import Pic1 from "./components/pictures/pic01.jpg";
 import React from 'react'
+import Columnas from "./components/Columns";
 
 const App = () => { 
   const[modalIsOpen, openModal, closeModal]=useModalHookState(false); 
   return (   
+    <>
     <div>
       <BotonRadio myOnClick={openModal}>OPEN MODAL</BotonRadio>
       <Modal modalIsOpen={modalIsOpen} closeModal={closeModal}>
@@ -22,6 +24,12 @@ const App = () => {
         </div>
       </Modal>
     </div>
+   
+   <div>
+    <Columnas />
+    </div>
+  
+    </> 
   )
 }
 export default App
