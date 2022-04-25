@@ -11,7 +11,6 @@ import Delivery from "./components/Delivery/Delivery";
 import Footer from "./components/Footer/Footer";
 import Carrusel from "./components/Carousel";
 
-
 const App = () => {
   const [modalIsOpen, openModal, closeModal] = useModalHookState(false);
   return (
